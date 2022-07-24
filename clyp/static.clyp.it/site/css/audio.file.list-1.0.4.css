@@ -1,0 +1,203 @@
+.audio-file-section {
+  width: 100%; }
+
+.file-list-container {
+  max-width: 767px;
+  z-index: 1; }
+
+.file-list {
+  font-weight: 200;
+  list-style: none; }
+
+.file-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.file-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  word-break: break-word; }
+
+.file-image {
+  margin: 0px 15px 15px 0px;
+  width: 80px;
+  height: 80px;
+  border-radius: 4px; }
+
+.options-row-top,
+.options-dropdown,
+.privacy-dropdown {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  position: relative; }
+
+.hint, [data-hint] {
+  display: inline-block;
+  position: relative; }
+
+.hint:before, .hint:after, [data-hint]:before, [data-hint]:after {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  visibility: hidden;
+  z-index: 1000000; }
+
+.hint:hover:before, .hint:hover:after, .hint:focus:before, .hint:focus:after, [data-hint]:hover:before, [data-hint]:hover:after, [data-hint]:focus:before, [data-hint]:focus:after {
+  opacity: 1;
+  visibility: visible; }
+
+.hint:before, [data-hint]:before {
+  background: transparent;
+  border: 6px solid transparent;
+  content: '';
+  position: absolute;
+  z-index: 1000001; }
+
+.hint:after, [data-hint]:after {
+  color: #f5f4ee;
+  content: attr(data-hint);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 12px;
+  padding: 8px 10px;
+  white-space: nowrap; }
+
+.hint--right:before {
+  margin-bottom: -6px;
+  margin-left: -12px; }
+
+.hint--right:after {
+  margin-bottom: -14px; }
+
+.hint--right:before, .hint--right:after {
+  bottom: 50%;
+  left: 100%; }
+
+.hint--right:hover:after, .hint--right:hover:before, .hint--right:focus:after, .hint--right:focus:before {
+  -webkit-transform: translateX(12px);
+  -ms-transform: translateX(12px);
+      transform: translateX(12px); }
+
+.hint--top:before {
+  margin-bottom: -12px; }
+
+.hint--top:after {
+  margin-left: -18px; }
+
+.hint--top:before, .hint--top:after {
+  bottom: 100%;
+  left: 1em; }
+
+.hint--top:hover:after, .hint--top:hover:before, .hint--top:focus:after, .hint--top:focus:before {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+
+.description-label {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  font-weight: 400;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 20px; }
+
+.option-prompt {
+  display: inline-block;
+  font-size: 1.1em;
+  vertical-align: middle; }
+
+/*** Toggle Styles ***/
+.user-profile-toggle {
+  display: inline-block;
+  margin: 0 0.3em;
+  vertical-align: middle;
+  width: 80px; }
+
+.user-profile-toggle div.switch {
+  background: #cccbc2;
+  border: none;
+  height: 30px;
+  margin-bottom: 0; }
+
+.user-profile-toggle div.switch label {
+  color: #f5f4ee;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.7em; }
+
+.user-profile-toggle div.switch > span {
+  background: #e2665a;
+  border: none;
+  height: 1.3em;
+  left: 0.4em;
+  top: 15%;
+  width: 1.3em; }
+
+.user-profile-toggle div.switch input:first-of-type:checked ~ span {
+  background: #73a25b;
+  margin-left: -1.7em;
+  top: 15%; }
+
+.user-profile-toggle div.switch > span {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+/*** End Toggle Styles ***/
+.toggle-wrapper {
+  display: inline-block;
+  margin-right: 24px; }
+
+.deleted-file {
+  background: #e2665a;
+  color: #f5f4ee;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  padding: .5em; }
+
+.deleted-file-container {
+  position: relative; }
+
+.deleted-file-name {
+  display: inline-block; }
+
+.undo-delete {
+  bottom: 0;
+  cursor: pointer;
+  font-weight: 400;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+@media all and (max-width: 767px) {
+  .toggle-wrapper {
+    display: block;
+    margin-right: 0; }
+  .toggle-wrapper:nth-child(n + 2) {
+    margin-top: 1em; }
+  .download-toggle {
+    margin-left: 14px; }
+  .comments-toggle {
+    margin-left: 16px; }
+  .deleted-file {
+    text-align: center; }
+  .undo-delete {
+    position: relative; } }
+
+@media all and (min-width: 768px) {
+  .file-image {
+    width: 180px;
+    height: 180px;
+    margin-right: 20px; } }

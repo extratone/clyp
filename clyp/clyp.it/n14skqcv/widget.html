@@ -1,0 +1,203 @@
+<html>
+<head>
+    <title>Allen T - Clyp</title>
+
+    <base target="_blank"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="description" content="#AllenT"/>
+    <meta property="og:title" content="Allen T - Clyp"/>
+    <meta property="og:description" content="#AllenT"/>
+    <meta property="og:image" content="https://static.clyp.it/site/images/logos/clyp-og-1200x630.png"/>
+    <meta property="og:site_name" content="Clyp"/>
+    <meta property="og:type" content="website"/>
+
+    <link rel="icon" type="image/png" href="../../static.clyp.it/site/images/favicons/apple-touch-icon-precomposed.png">
+    <link href="../../static.clyp.it/site/css/playerwidget.v2-1.0.15.css" rel="stylesheet"/>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6V0QHXCPC1"></script>
+<script>
+    function getGtagConfig() {
+        function canUseLocalStorage() {
+            var testString = "test";
+            try {
+                localStorage.setItem(testString, testString);
+                localStorage.removeItem(testString);
+                return true;
+            } catch (e) {
+                return false;
+            }
+        };
+
+        var configInfo = {};
+
+        if (!canUseLocalStorage()) {
+            return configInfo;
+        }
+
+        var userId = localStorage["userId"];
+        if (userId) {
+            configInfo.user_id = userId;
+        }
+
+        return configInfo;
+    };
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-6V0QHXCPC1', getGtagConfig());
+</script>
+
+</head>
+<body id="widget-wrapper">
+
+<div id="widget" class="default">
+    <div class="widget-header">
+        <a href="../index.html" target="_blank">
+            <img id="logo-image" src="../../static.clyp.it/site/images/logos/clyp-logo-primary-98x44.svg" class="widget-logo"/>
+        </a>
+        <div class="buttons-container">
+                            <div id="openShareViewButton" class="button secondary tiny share-button">Share</div>
+        </div>
+    </div>
+    <div class="widget-body">
+        <div class="soundwave-wrapper">
+            <svg id="soundwave"></svg>
+        </div>
+        <div class="times-wrapper">
+            <div id="timer" class="current-time"></div>
+            <div id="duration" class="total-time"></div>
+        </div>
+    </div>
+    <div class="widget-footer">
+        <div class="play-controls-button">
+<svg width="50px" height="50px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="playBtn">
+        <circle fill="#FFBC00" cx="100" cy="100" r="100"></circle>
+        <path d="M138.518025,110.586914 C146.648535,104.8586 146.647029,95.570106 138.518025,89.8428532 L83.7215916,51.2362752 C75.5910811,45.507961 69,48.9297442 69,58.8601647 L69,141.569603 C69,151.508475 75.5925876,154.920745 83.7215916,149.193492 L138.518025,110.586914 Z" fill="#FDFFFC"></path>
+    </g>
+    <g id="pauseBtn" style="display: none;">
+        <circle fill="#FFBC00" cx="100" cy="100" r="100"></circle>
+        <path d="M63,60.0083941 C63,52.2717717 69.2663135,46 77,46 C84.7319865,46 91,52.2733516 91,60.0083941 L91,139.991606 C91,147.728228 84.7336865,154 77,154 C69.2680135,154 63,147.726648 63,139.991606 L63,60.0083941 Z M109,60.0083941 C109,52.2717717 115.266313,46 123,46 C130.731986,46 137,52.2733516 137,60.0083941 L137,139.991606 C137,147.728228 130.733687,154 123,154 C115.268014,154 109,147.726648 109,139.991606 L109,60.0083941 Z" fill="#FDFFFC"></path>
+    </g>
+    <g id="loadingBtn" style="display: none;">
+        <circle fill="#FFBC00" cx="100" cy="100" r="100"></circle>
+        <rect x="35" y="86" rx="14" ry="14" width="26" height="33" fill="#FDFFFC">
+            <animate attributeName="height" attributeType="XML"
+                     values="33;110;33"
+                     begin="0s" dur="0.6s" repeatCount="indefinite"/>
+            <animate attributeName="y" attributeType="XML"
+                     values="86;48;86"
+                     begin="0s" dur="0.6s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="87" y="86" rx="14" ry="14" width="26" height="33" fill="#FDFFFC">
+            <animate attributeName="height" attributeType="XML"
+                     values="33;140;33"
+                     begin="0.15s" dur="0.6s" repeatCount="indefinite"/>
+            <animate attributeName="y" attributeType="XML"
+                     values="86;33;86"
+                     begin="0.15s" dur="0.6s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="139" y="86" rx="14" ry="14" width="26" height="33" fill="#FDFFFC">
+            <animate attributeName="height" attributeType="XML"
+                     values="33;110;33"
+                     begin="0.3s" dur="0.6s" repeatCount="indefinite"/>
+            <animate attributeName="y" attributeType="XML"
+                     values="86;48;86"
+                     begin="0.3s" dur="0.6s" repeatCount="indefinite"/>
+        </rect>
+    </g>
+</svg></div>
+        <div class="title-and-date">
+                <div class="title">
+                    <a href="../n14skqcv.1.html" target="_blank">Allen T</a>
+                </div>
+            <div class="date-and-counts">
+                <div id="timeAgoLbl" class="date-created"></div>
+                <div class="counts">
+                        <div class="comment-count">
+                            <div class="comment-count-icon"></div>
+                            <div class="comment-count-label">5</div>
+                        </div>
+                    <div class="listen-count">
+                        <div class="listen-count-icon"></div>
+                        <div class="listen-count-label">360,636</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="shareContainer" class="share-view">
+            <div class="share-section top">
+                <div class="facebook-icon" onclick="LinkSharer.facebookShare();"></div>
+                <div class="twitter-icon" onclick="LinkSharer.twitterShare();"></div>
+                <div class="reddit-icon" onclick="LinkSharer.redditShare();"></div>
+            </div>
+            <div class="share-section bottom">
+                <input id="linkTextInput" type="text" class="share-link" onclick="this.setSelectionRange(0, this.value.length);" value="https://clyp.it/n14skqcv" spellcheck="false"/>
+                <input id="embedTextInput" style="display: none;" type="text" class="share-link" onclick="this.setSelectionRange(0, this.value.length);" value="&lt;iframe width=&quot;100%&quot; height=&quot;265&quot; src=&quot;https://clyp.it/n14skqcv/widget&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;" spellcheck="false"/>
+                <div class="shareType-toggle">
+                    <div id="linkToggleButton" class="link-option active">Link</div>
+                    <div id="embedToggleButton" class="embed-option">Embed</div>
+                </div>
+            </div>
+            <span id="closeShareViewButton" class="share-closeIcon"></span>
+        </div>
+</div>
+
+    <script src="../../static.clyp.it/site/js/global.widget.v2-1.0.10.js"></script>
+
+
+<script>
+    createPlayer({"SoundwaveUrl":"https://soundwave.clyp.it/n14skqcv","Mp3Url":"https://a.clyp.it/n14skqcv.mp3","OggUrl":"https://a.clyp.it/n14skqcv.ogg","Duration":87.301,"CommentCount":5,"ListenCount":360636,"Title":"Allen T","MetadataTitle":"Allen T - Clyp","MetadataDescription":"#AllenT","AudioFileId":"n14skqcv","UserProvidedToken":null,"AudioFileStatusStatus":3,"DateCreated":1447250663083,"SoundwaveColorHex":"#3DBEB3","PlayButtonColorHex":"#FFBC00","PlayerPageUrl":"https://clyp.it/n14skqcv","PlayerWidgetUrl":"https://clyp.it/n14skqcv/widget","LogoImageSource":"https://static.clyp.it/site/images/logos/clyp-logo-primary-98x44.svg","LogoLinkTarget":"https://clyp.it/","ApiUrl":"https://api.clyp.it/"});
+
+    function createPlayer(model) {
+        return new Player(
+            {
+                timer: document.getElementById("timer"),
+                duration: document.getElementById("duration"),
+                timeAgoLabel: document.getElementById("timeAgoLbl"),
+                downloadButton: document.getElementById("downloadButton"),
+                playButton: document.getElementById("playBtn"),
+                pauseButton: document.getElementById("pauseBtn"),
+                soundwave: document.getElementById("soundwave"),
+                loadingButton: document.getElementById("loadingBtn")
+            },
+            [
+                {
+                    soundwaveUrl: model.SoundwaveUrl,
+                    mp3Url: model.Mp3Url,
+                    oggUrl: model.OggUrl,
+                    duration: model.Duration,
+                    audioFileId: model.AudioFileId,
+                    userProvidedToken: model.UserProvidedToken,
+                    dateCreated: model.DateCreated,
+                    soundwaveColorHex: model.SoundwaveColorHex,
+                    apiUrl: model.ApiUrl,
+                    howl: null
+                }
+            ]
+        );
+    };
+</script>
+    <script>
+        window.LinkSharer = createLinkSharer("https://clyp.it/n14skqcv");
+
+        function createLinkSharer(playerPageUrl) {
+            return new WidgetLinkSharingModel(
+                {
+                    openShareViewButton: document.getElementById("openShareViewButton"),
+                    closeShareViewButton: document.getElementById("closeShareViewButton"),
+                    containerElement: document.getElementById("shareContainer"),
+                    linkToggleButton: document.getElementById("linkToggleButton"),
+                    embedToggleButton: document.getElementById("embedToggleButton"),
+                    linkTextInput: document.getElementById("linkTextInput"),
+                    embedTextInput: document.getElementById("embedTextInput")
+                },
+                playerPageUrl);
+        };
+    </script>
+</body>
+</html>

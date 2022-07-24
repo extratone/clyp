@@ -1,0 +1,81 @@
+.site-information {
+  padding: 15px 20px;
+  background-color: #FDFFFC; }
+  .site-information h1 {
+    margin: 15px 0 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #5F6D7A;
+    letter-spacing: 0.5px; }
+  .site-information .section-separator {
+    border-top: 1px solid #E4E5E5;
+    padding-top: 12px; }
+  .site-information .side-nav {
+    list-style-type: none;
+    padding: 0; }
+    .site-information .side-nav a {
+      color: #8C95A0; }
+      .site-information .side-nav a:hover {
+        color: #5F6D7A; }
+      .site-information .side-nav a.active {
+        color: #3DBEB3; }
+    .site-information .side-nav li {
+      padding: 3px 0; }
+  .site-information .contact-us {
+    color: #D1D6DA;
+    margin-bottom: 6px; }
+    .site-information .contact-us + .side-nav {
+      margin-top: 0; }
+  .site-information .new-window-icon {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjExcHgiIGhlaWdodD0iMTFweCIgdmlld0JveD0iMCAwIDExIDExIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjYuMSAoMjYzMTMpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPm5ldyBwYWdlIGljb248L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iU2l0ZS1wYWdlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFib3V0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjA0LjAwMDAwMCwgLTQ2OS4wMDAwMDApIiBmaWxsPSIjRDFENkRBIj4KICAgICAgICAgICAgPGcgaWQ9InNpZGViYXItKy1jb250YWN0LXNpZGUtYmFyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMTYuMDAwMDAwLCAxNDUuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iY29udGFjdC1zaWRlLWJhciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDI4NS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0ibmV3LXBhZ2UtaWNvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODcuMDAwMDAwLCAzOS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuNjMxMTExMTEsMS4zNjg4ODg4OSBMOS42MzExMTExMSw2Ljg2ODg4ODg5IEw0LjEzMTExMTExLDYuODY4ODg4ODkgTDQuMTMxMTExMTEsMS4zNjg4ODg4OSBMOS42MzExMTExMSwxLjM2ODg4ODg5IEw5LjYzMTExMTExLDEuMzY4ODg4ODkgWiBNMTEsMCBMMi43NSwwIEwyLjc1LDguMjUgTDExLDguMjUgTDExLDAgTDExLDAgTDExLDAgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xLjM2ODg4ODg5LDkuNjMxMTExMTEgTDEuMzY4ODg4ODksMi43NSBMMCwyLjc1IEwwLDExIEw4LjI1LDExIEw4LjI1LDkuNjMxMTExMTEgTDEuMzY4ODg4ODksOS42MzExMTExMSBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    margin-left: 5px; }
+  .site-information .code-sample {
+    background-color: #F1F3F3;
+    padding: 10px 16px;
+    border-radius: 4px; }
+
+.site-information-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px; }
+  .site-information-content h2 + p {
+    margin-top: 0; }
+
+.site-information-content p {
+  margin-bottom: 28px; }
+
+.site-information-content h2:first-of-type {
+  margin-top: 10px; }
+
+#request-api-access {
+  font-size: 16px;
+  width: 230px; }
+
+.api-docs {
+  margin-top: 40px; }
+  .api-docs .api-docs-resource {
+    border: 1px solid #E4E5E5;
+    border-radius: 4px;
+    padding: 18px 30px; }
+    .api-docs .api-docs-resource ul.no-bullet {
+      list-style: none;
+      padding-left: 0; }
+    .api-docs .api-docs-resource div:first-of-type {
+      padding-top: 0; }
+    .api-docs .api-docs-resource:not(:last-child) {
+      margin-bottom: 70px; }
+    .api-docs .api-docs-resource > div {
+      padding: 6px 0; }
+      .api-docs .api-docs-resource > div h3:first-child {
+        color: #FFBC00;
+        font-size: 22px;
+        font-weight: 400; }
+      .api-docs .api-docs-resource > div:not(:last-child) {
+        border-bottom: 1px solid #E4E5E5; }
+    .api-docs .api-docs-resource h2:first-child {
+      font-size: 32px; }

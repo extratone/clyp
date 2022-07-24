@@ -1,0 +1,96 @@
+body {
+  background-color: #F3F4F4; }
+
+.notification-history-container {
+  background-color: #FDFFFC;
+  border: 1px solid #E4E5E5;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 0 12px 12px; }
+  .notification-history-container .button.load-more-button {
+    margin: 8px 0; }
+
+.latest-activity-headline {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 24px; }
+
+.mark-all-read-container {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+.notification-history-top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 16px; }
+  .notification-history-top-row .top-row-item {
+    padding-right: 12px;
+    margin-left: 12px;
+    margin-top: 0;
+    margin-bottom: 16px; }
+
+.notification-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+.notification-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: #5F6D7A; }
+  .notification-card.unacknowledged {
+    font-weight: 600; }
+  .notification-card:hover {
+    border-radius: 4px;
+    color: #5F6D7A;
+    background-color: #F1F3F3; }
+
+.notification-timestamp-right {
+  margin-left: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: #D1D6DA; }
+
+.notification-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 12px; }
+
+.notification-timestamp-bottom {
+  display: none;
+  color: #D1D6DA; }
+
+.zero-notifications-message {
+  margin: 0 0 12px 12px; }
+
+@media screen and (max-width: 47.9375em) {
+  .notification-timestamp-bottom {
+    display: block; }
+  .notification-timestamp-right {
+    display: none; } }
